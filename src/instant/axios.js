@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
- baseURL:'http://localhost:8082', 
+ baseURL:'https://tecnoexam-backend.onrender.com', 
   withCredentials: true,
 });
 
